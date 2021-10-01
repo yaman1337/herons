@@ -1,6 +1,6 @@
 const btn = document.getElementById('btn');
 const result = document.getElementById('result');
-
+let z;
 btn.addEventListener('click', () => {
     const a = document.getElementById('a').value;
     const b = document.getElementById('b').value;
